@@ -1,0 +1,198 @@
+body {
+  background: #5CA2C6;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.heart {
+  position: relative;
+  margin: 245px 0 0 20px;
+}
+
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: 45px;
+  top: 0;
+  width: 45px;
+  height: 80px;
+  background: #c29696;
+  border-radius: 45px 45px 0 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+
+.heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+
+.base {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 15px solid #a99669;
+  background: #c9b27d;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.cheese {
+  width: 225px;
+  height: 225px;
+  border: 10px solid #d26451;
+  border-radius: 75% 75% 75% 72%;
+  background: #ebd47a;
+  position: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2px;
+  -webkit-box-shadow: 1px 1px 0px 5px #782e21;
+          box-shadow: 1px 1px 0px 5px #782e21;
+}
+
+.pepperoni {
+  background: brown;
+  border-radius: 50%;
+  border: 3px solid saddlebrown;
+  border-top: 0;
+  -webkit-box-shadow: inset 3px 3px 10px 0px brown;
+          box-shadow: inset 3px 3px 10px 0px brown;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pepperoni1 {
+  width: 10%;
+  height: 10%;
+  margin-left: 40%;
+  margin-top: 75%;
+  -webkit-transform: rotate(145deg);
+          transform: rotate(145deg);
+}
+
+.pepperoni2 {
+  margin-left: 80px;
+  margin-top: 25px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.pepperoni3 {
+  width: 10%;
+  height: 10%;
+  margin-left: 10%;
+  margin-top: 40%;
+  -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
+}
+
+.pepperoni4 {
+  width: 10%;
+  height: 10%;
+  margin-left: 35%;
+  margin-top: 35%;
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+}
+
+.pepperoni5 {
+  width: 13%;
+  height: 13%;
+  margin-left: 156px;
+  margin-top: 20%;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.pepperoni6 {
+  width: 10%;
+  height: 10%;
+  margin-left: 50px;
+  margin-top: 156px;
+  -webkit-transform: rotate(145deg);
+          transform: rotate(145deg);
+}
+
+.pepperoni7 {
+  width: 13%;
+  height: 13%;
+  margin-left: 70%;
+  margin-top: 45%;
+  -webkit-transform: rotate(24deg);
+          transform: rotate(24deg);
+}
+
+.pepperoni8 {
+  width: 10%;
+  height: 10%;
+  margin-left: 60%;
+  margin-top: 64%;
+}
+
+.pepperoni9 {
+  width: 10%;
+  height: 10%;
+  margin-left: 50%;
+  margin-top: 54%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.pepperoni10 {
+  margin-left: 12%;
+  margin-top: 17%;
+  -webkit-transform: rotate(48deg);
+          transform: rotate(48deg);
+}
+
+.pepperoni11 {
+  width: 7%;
+  height: 9%;
+  margin-left: 47%;
+  margin-top: 5%;
+  -webkit-transform: rotate(148deg);
+          transform: rotate(148deg);
+}
+/*# sourceMappingURL=main.css.map */
