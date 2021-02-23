@@ -17,35 +17,6 @@ body {
   position: relative;
 }
 
-.heart {
-  position: relative;
-  margin: 245px 0 0 20px;
-}
-
-.heart:before,
-.heart:after {
-  position: absolute;
-  content: "";
-  left: 45px;
-  top: 0;
-  width: 45px;
-  height: 80px;
-  background: #c29696;
-  border-radius: 45px 45px 0 0;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  -webkit-transform-origin: 0 100%;
-          transform-origin: 0 100%;
-}
-
-.heart:after {
-  left: 0;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  -webkit-transform-origin: 100% 100%;
-          transform-origin: 100% 100%;
-}
-
 .base {
   width: 250px;
   height: 250px;
